@@ -18,6 +18,9 @@
       "**/*"
     ],
     "ios": {
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app need access to photo library to help you set your profile picture"
+      },
       "supportsTablet": true
     },
     "android": {
