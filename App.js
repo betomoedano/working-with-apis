@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import ProfileScreen from './screens/ProfileScreen';
 import MapsScreen from './screens/MapsScreen';
+import CryptoScreen from './screens/CryptoScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -15,6 +16,7 @@ export default function App() {
         <Tab.Screen name="Request" component={RequestScreen} />
         <Tab.Screen name="Profile" component={ProfileScreen} />
         <Tab.Screen name="Maps" component={MapsScreen} />
+        <Tab.Screen name="Crypto" component={CryptoScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );
